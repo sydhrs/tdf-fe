@@ -1,0 +1,91 @@
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.minAgo,
+.saraAlMogbel {
+  position: relative;
+  line-height: 100%;
+}
+.minAgo {
+  color: var(--neutral-light-black);
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--primary-midnight-blue);
+  width: 2px;
+  height: 2px;
+}
+.ellipseGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.welcomeToThe {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.streamlineinterfaceFavoriteIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv,
+.frameParent,
+.streamlineinterfaceFavoriteParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameDiv,
+.frameParent {
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xs);
+  color: var(--neutral-dark-gray);
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-midnight-blue);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-lg);
+  text-align: left;
+  font-size: var(--light-status-size);
+  color: var(--neutral-light);
+  font-family: var(--thin-description);
+}

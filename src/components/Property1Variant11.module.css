@@ -1,0 +1,45 @@
+.rightSideHoverChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-21xl) 0;
+}
+.rightSideHover {
+  width: 7.4%;
+  right: 0;
+  left: 92.6%;
+}
+.leftSideHover,
+.leftSideHoverChild,
+.rightSideHover {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.leftSideHoverChild {
+  width: 100%;
+  right: -100%;
+  left: 100%;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.leftSideHover {
+  width: 7.4%;
+  right: 81.33%;
+  left: 11.27%;
+}
+.property1variant11 {
+  position: relative;
+  border-radius: 0 0 var(--br-21xl) 0;
+  width: 1500px;
+  height: 604px;
+  background-image: url(/public/property-1variant11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

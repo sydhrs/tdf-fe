@@ -1,0 +1,30 @@
+.offers {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 800;
+}
+.frameWrapper,
+.offersParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.offersParent {
+  width: 321px;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--bg-blur-storke);
+  box-sizing: border-box;
+  width: 369px;
+  padding: var(--padding-5xl);
+  align-items: center;
+  text-align: left;
+  font-size: var(--header-h3-size);
+  color: var(--neutral-light);
+  font-family: var(--thin-description);
+}

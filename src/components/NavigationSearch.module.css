@@ -1,0 +1,87 @@
+.frameChild {
+  border: 1px solid var(--bg-blur-storke);
+  display: flex;
+  font-family: var(--thin-description);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-gray-200);
+  align-self: stretch;
+  border-radius: var(--br-45xl);
+  backdrop-filter: var(--bg-blur);
+  box-sizing: border-box;
+  width: 823px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: center;
+}
+.solarcalendarOutlineIcon {
+  position: relative;
+  width: 137.5px;
+  height: 137px;
+}
+.solarcalendarOutlineWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tablermessageIcon {
+  position: relative;
+  width: 136px;
+  height: 135px;
+}
+.frameItem,
+.mdinotificationsNoneIcon {
+  position: relative;
+  width: 134px;
+  height: 137px;
+}
+.frameItem {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.ellipseWrapper {
+  width: 56px;
+  height: 56px;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.ellipseWrapper,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameGroup {
+  padding: 0 var(--padding-5xs) 0 0;
+  justify-content: flex-end;
+  gap: var(--gap-17xl);
+}
+.frameParent {
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  left: 209px;
+  border-radius: var(--br-69xl);
+  background-color: var(--color-gray-300);
+  backdrop-filter: var(--bg-blur);
+  border: 1px solid var(--bg-blur-storke);
+  box-sizing: border-box;
+  width: 1251px;
+  height: 82px;
+  padding: var(--padding-base);
+  justify-content: space-between;
+}

@@ -1,0 +1,109 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-5xs);
+  width: 78px;
+  height: 50px;
+  object-fit: cover;
+}
+.newAnalyticsDashboard,
+.thisIsA {
+  position: relative;
+  line-height: 100%;
+}
+.newAnalyticsDashboard {
+  align-self: stretch;
+}
+.thisIsA {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 227px;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.complete,
+.daysLeft {
+  position: relative;
+  line-height: 100%;
+}
+.daysLeft {
+  font-weight: 300;
+}
+.completeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameItem,
+.rectangleWrapper {
+  border-radius: var(--br-2xl);
+  height: 4px;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    #3c3cf0,
+    #3451e6 17%,
+    #2088cd 52%,
+    #00dca5
+  );
+  width: 230px;
+}
+.rectangleWrapper {
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  width: 302px;
+}
+.frameDiv {
+  align-self: stretch;
+  padding: var(--padding-5xs) 0;
+}
+.frameDiv,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.vectorIcon {
+  position: relative;
+  width: 6px;
+  height: 10.48px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameContainer,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameContainer {
+  padding: 0 0 var(--padding-base);
+  justify-content: center;
+}
+.frameWrapper {
+  border-bottom: 1px solid var(--neutral-light-gray);
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--light-status-size);
+  color: var(--neutral-light);
+  font-family: var(--thin-description);
+}

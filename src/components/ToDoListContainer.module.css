@@ -1,0 +1,106 @@
+.p {
+  margin: 0;
+}
+.am,
+.frameChild {
+  position: relative;
+}
+.am {
+  line-height: 100%;
+}
+.frameChild {
+  border-right: 1px solid var(--neutral-light);
+  box-sizing: border-box;
+  width: 1px;
+  height: 52px;
+  opacity: 0.1;
+}
+.amParent,
+.viewMeetingDetails {
+  display: flex;
+  align-items: center;
+}
+.amParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.viewMeetingDetails {
+  position: relative;
+  line-height: 100%;
+  font-weight: 300;
+  width: 187px;
+}
+.dailyStandupParent,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.dailyStandupParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+}
+.frameGroup {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-400);
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  gap: var(--gap-base);
+}
+.areYouAttending {
+  margin-block-start: 0;
+  margin-block-end: 4px;
+  font-weight: 300;
+}
+.yes {
+  font-family: var(--thin-description);
+  color: var(--color-chocolate);
+}
+.span {
+  font-weight: 300;
+}
+.no {
+  font-family: var(--thin-description);
+}
+.areYouAttendingContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.areYouAttendingContainer {
+  position: relative;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  width: 187px;
+}
+.areYouAttendingThisMeetingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xs);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--light-status-size);
+  color: var(--neutral-light);
+  font-family: var(--thin-description);
+}

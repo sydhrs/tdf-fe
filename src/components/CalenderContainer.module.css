@@ -1,0 +1,204 @@
+.calendar {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 800;
+}
+.frameChild {
+  position: relative;
+  width: 26px;
+  height: 26px;
+}
+.april2023Parent,
+.groupParent {
+  display: flex;
+  flex-direction: row;
+}
+.groupParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.april2023Parent {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+.mon {
+  position: relative;
+  line-height: 100%;
+  font-weight: 300;
+}
+.monParent,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.wrapper {
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  padding: var(--padding-smi) var(--padding-3xs);
+  align-items: flex-start;
+}
+.monParent {
+  align-items: center;
+  gap: var(--gap-base);
+}
+.thu {
+  position: relative;
+  line-height: 100%;
+}
+.frameDiv {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--color-whitesmoke-200);
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-smi) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+.frameGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.vectorIcon {
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+.vectorWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-whitesmoke-100);
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper1,
+.yourToDoListParent {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  opacity: 0;
+}
+.yourToDoListParent {
+  align-self: stretch;
+  display: none;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.frameParent3 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-200);
+  padding: var(--padding-base);
+  text-align: center;
+  color: var(--neutral-light);
+}
+.frameParent2,
+.frameParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.createANew {
+  position: relative;
+  font-size: var(--light-status-size);
+  line-height: 100%;
+  font-family: var(--thin-description);
+  color: var(--primary-midnight-blue);
+  text-align: center;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 10.81px;
+  height: 10.81px;
+}
+.createANewEventParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameButton {
+  cursor: pointer;
+  border: 1px solid var(--neutral-light-gray);
+  padding: var(--padding-base);
+  background-color: var(--neutral-light);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent,
+.frameParent1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--color-black);
+}
+.frameParent {
+  font-size: var(--light-status-size);
+}
+.calendarParent,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.calendarParent {
+  width: 321px;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--bg-blur-storke);
+  box-sizing: border-box;
+  width: 369px;
+  padding: var(--padding-5xl);
+  align-items: center;
+  text-align: left;
+  font-size: var(--header-h3-size);
+  color: var(--neutral-light);
+  font-family: var(--thin-description);
+}

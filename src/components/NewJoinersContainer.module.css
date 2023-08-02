@@ -1,0 +1,53 @@
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+}
+.ahmedMagdi,
+.productManager {
+  position: relative;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  width: 117px;
+}
+.productManager {
+  font-weight: 300;
+}
+.ahmedMagdiParent,
+.ellipseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ellipseParent {
+  flex-direction: row;
+  align-items: center;
+}
+.vectorIcon {
+  position: relative;
+  width: 6px;
+  height: 10.48px;
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: 0 0 var(--padding-base);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--light-status-size);
+  color: var(--neutral-light);
+  font-family: var(--thin-description);
+}

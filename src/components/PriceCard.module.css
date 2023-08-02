@@ -1,0 +1,146 @@
+.vectorIcon {
+  position: relative;
+  width: 58px;
+  height: 52px;
+}
+.frameChild,
+.frameItem {
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke-100);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  opacity: 0.1;
+}
+.frameItem {
+  position: relative;
+  width: 3px;
+  height: 3px;
+}
+.ellipseGroup {
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.ellipseParent {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.vectorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.div {
+  position: relative;
+  line-height: 100%;
+  font-weight: 800;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 11.42px;
+  height: 6.77px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.monthlyInvestorsCount {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 100;
+  color: var(--neutral-light);
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+}
+.frameContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameGroup {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-100);
+  backdrop-filter: var(--bg-blur);
+  border: 1px solid var(--bg-blur-storke);
+  box-sizing: border-box;
+  width: 198.5px;
+  height: 146px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: space-between;
+}
+.vectorIcon2 {
+  position: relative;
+  width: 42.03px;
+  height: 42.05px;
+}
+.addANew {
+  position: relative;
+  font-size: var(--light-status-size);
+  line-height: 100%;
+  font-family: var(--thin-description);
+  color: var(--neutral-light);
+  text-align: center;
+}
+.vectorGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.frameWrapper {
+  cursor: pointer;
+  border: 1px solid var(--bg-blur-storke);
+  padding: var(--padding-base);
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-base);
+  backdrop-filter: var(--bg-blur);
+  box-sizing: border-box;
+  width: 186px;
+  height: 146px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent {
+  position: absolute;
+  top: 418px;
+  left: 209px;
+  width: 842px;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--thin-description-size);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--thin-description);
+}

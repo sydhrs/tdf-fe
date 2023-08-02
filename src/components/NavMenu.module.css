@@ -1,0 +1,74 @@
+.icoutlineSpaceDashboardIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard {
+  position: relative;
+  font-size: var(--thin-description-size);
+  line-height: 100%;
+  font-family: var(--font-abeezee);
+  color: var(--neutral-light);
+  text-align: justify;
+}
+.icoutlineSpaceDashboardParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base);
+  background-color: var(--color-gray-400);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.projects {
+  position: relative;
+  font-size: var(--thin-description-size);
+  line-height: 100%;
+  font-family: var(--thin-description);
+  color: var(--neutral-light);
+  text-align: justify;
+}
+.materialSymbolsformatListNParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-5xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.people {
+  margin: 0;
+}
+.phusersThreeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-5xs);
+  background-color: transparent;
+}
+.frameParent {
+  padding: var(--padding-base) 0 0;
+}
