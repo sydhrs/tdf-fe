@@ -24,7 +24,7 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
+        title = "TDF";
         metaDescription = "";
         break;
     }

@@ -16,6 +16,10 @@
   align-items: flex-start;
   justify-content: center;
 }
+
+.frameChild::placeholder {
+  color: white;
+}
 .solarcalendarOutlineIcon {
   position: relative;
   width: 137.5px;

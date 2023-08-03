@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import styles from "./Property1Variant11.module.css";
-const Property1Variant11 = ({
+const DashboardCover = ({
   property1Variant11Position,
   property1Variant11BackgroundImage,
   property1Variant11Top,
@@ -38,4 +38,4 @@ const Property1Variant11 = ({
   );
 };
 
-export default Property1Variant11;
+export default DashboardCover;
