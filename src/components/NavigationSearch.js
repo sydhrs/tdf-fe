@@ -29,7 +29,7 @@ const NavigationSearch = () => {
         <div className={styles.frameWrapper}>
           <div className={styles.solarcalendarOutlineWrapper}>
             <img
-              className={styles.mdinotificationsNoneIcon}
+              className={styles.tablermessageIcon}
               alt=""
               src="/mdinotificationsnone.svg"
             />

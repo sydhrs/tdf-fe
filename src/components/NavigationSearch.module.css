@@ -16,13 +16,9 @@
   align-items: flex-start;
   justify-content: center;
 }
-
-.frameChild::placeholder {
-  color: white;
-}
 .solarcalendarOutlineIcon {
   position: relative;
-  width: 137.5px;
+  width: 24px;
   height: 137px;
 }
 .solarcalendarOutlineWrapper {
@@ -38,16 +34,11 @@
   align-items: center;
   justify-content: center;
 }
+.frameItem,
 .tablermessageIcon {
   position: relative;
-  width: 136px;
-  height: 135px;
-}
-.frameItem,
-.mdinotificationsNoneIcon {
-  position: relative;
-  width: 134px;
-  height: 137px;
+  width: 24px;
+  height: 24px;
 }
 .frameItem {
   border-radius: 50%;

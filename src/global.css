@@ -71,13 +71,13 @@ body {
   --padding-lg: 18px;
 
   /* border radiuses */
-  --br-21xl: 40px;
   --br-5xl: 24px;
   --br-5xs: 8px;
   --br-69xl: 88px;
   --br-45xl: 64px;
   --br-base: 16px;
   --br-9xs: 4px;
+  --br-21xl: 40px;
   --br-2xl: 21px;
 
   /* Effects */
