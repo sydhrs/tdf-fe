@@ -18,13 +18,13 @@
 }
 .solarcalendarOutlineIcon {
   position: relative;
-  width: 24px;
-  height: 137px;
+  width: 100px;
+  height: 100px;
 }
 .solarcalendarOutlineWrapper {
   display: flex;
   flex-direction: row;
-  padding: var(--padding-base);
+  /*padding: var(--padding-base);*/
   align-items: center;
   justify-content: flex-start;
 }
@@ -37,13 +37,13 @@
 .frameItem,
 .tablermessageIcon {
   position: relative;
-  width: 24px;
-  height: 24px;
+  width: 100px;
+  height: 100px;
 }
 .frameItem {
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   object-fit: cover;
 }
 .ellipseWrapper {

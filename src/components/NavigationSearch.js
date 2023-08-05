@@ -7,7 +7,7 @@ const NavigationSearch = () => {
         type="text"
         placeholder="Ask me anything"
       />
-      <div className={styles.frameGroup}>
+      <div style={{display: "flex", gap: 0}}>
         <div className={styles.frameWrapper}>
           <div className={styles.solarcalendarOutlineWrapper}>
             <img
