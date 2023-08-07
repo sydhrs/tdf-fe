@@ -180,125 +180,125 @@ const FrameComponent = () => {
             </div>
           </div>
         </div>
-        {/*<div className={styles.frameParent12}>*/}
-        {/*  <div className={styles.frameParent13}>*/}
-        {/*    <div className={styles.toDoListParent}>*/}
-        {/*      <div className={styles.projectsGroup}>*/}
-        {/*        <div className={styles.newJoiners}>Your Feed</div>*/}
-        {/*        <div className={styles.frameInner} />*/}
-        {/*      </div>*/}
-        {/*      <button className={styles.recentParent}>*/}
-        {/*        <div className={styles.recent}>Recent</div>*/}
-        {/*        <img*/}
-        {/*          className={styles.dropdownIcon}*/}
-        {/*          alt=""*/}
-        {/*          src="/dropdown.svg"*/}
-        {/*        />*/}
-        {/*      </button>*/}
-        {/*    </div>*/}
-        {/*    <div className={styles.frameParent15}>*/}
-        {/*      <div className={styles.createANewProjectParent}>*/}
-        {/*        <button className={styles.postsWrapper}>*/}
-        {/*          <div className={styles.recent}>Posts</div>*/}
-        {/*        </button>*/}
-        {/*        <button className={styles.postsWrapper}>*/}
-        {/*          <div className={styles.recent}>Events</div>*/}
-        {/*        </button>*/}
-        {/*        <button className={styles.postsWrapper}>*/}
-        {/*          <div className={styles.recent}>News</div>*/}
-        {/*        </button>*/}
-        {/*        <button className={styles.postsWrapper}>*/}
-        {/*          <div className={styles.recent}>Articles</div>*/}
-        {/*        </button>*/}
-        {/*        <button className={styles.postsWrapper}>*/}
-        {/*          <div className={styles.recent}>Announcements</div>*/}
-        {/*        </button>*/}
-        {/*        <button className={styles.postsWrapper}>*/}
-        {/*          <div className={styles.recent}>Argaam</div>*/}
-        {/*        </button>*/}
-        {/*      </div>*/}
-        {/*      <button className={styles.newPostWrapper}>*/}
-        {/*        <b className={styles.recent}>New Post+</b>*/}
-        {/*      </button>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
-        {/*  <div className={styles.frameWrapper2}>*/}
-        {/*    <div className={styles.frameParent15}>*/}
-        {/*      <div className={styles.frameParent18}>*/}
-        {/*        <FeedContainer*/}
-        {/*          dimensionCode="/ellipse-945@2x.png"*/}
-        {/*          employeeName="Ahmed Magdi"*/}
-        {/*          imageDimensionCode="/frame-4251.svg"*/}
-        {/*          onboardingMaterialsUrl="Welcome to the team @ahmed.d! Please see all onboarding materials here!"*/}
-        {/*          imageDimensionCode2="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove.svg"*/}
-        {/*          productDimensionCode="/uilcommentaltmessage.svg"*/}
-        {/*        />*/}
-        {/*        <FeedContainer*/}
-        {/*          dimensionCode="/ellipse-945@2x.png"*/}
-        {/*          employeeName="Ahmed Magdi"*/}
-        {/*          imageDimensionCode="/frame-4254.svg"*/}
-        {/*          onboardingMaterialsUrl="Amazing spot for next travel destination!"*/}
-        {/*          imageDimensionCode2="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove.svg"*/}
-        {/*          productDimensionCode="/uilcommentaltmessage1.svg"*/}
-        {/*          propAlignSelf="stretch"*/}
-        {/*          propFlex="unset"*/}
-        {/*          propAlignSelf1="stretch"*/}
-        {/*        />*/}
-        {/*        <TextFeedContainer*/}
-        {/*          dimensionCode="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove.svg"*/}
-        {/*          productCode="/uilcommentaltmessage1.svg"*/}
-        {/*        />*/}
-        {/*      </div>*/}
-        {/*      <div className={styles.frameParent18}>*/}
-        {/*        <FeedContainer*/}
-        {/*          dimensionCode="/ellipse-946@2x.png"*/}
-        {/*          employeeName="Sara Al Mogbel"*/}
-        {/*          imageDimensionCode="/frame-4253.svg"*/}
-        {/*          onboardingMaterialsUrl="New Office Design!!"*/}
-        {/*          imageDimensionCode2="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove1.svg"*/}
-        {/*          productDimensionCode="/uilcommentaltmessage2.svg"*/}
-        {/*          propAlignSelf="stretch"*/}
-        {/*          propFlex="unset"*/}
-        {/*          propAlignSelf1="unset"*/}
-        {/*        />*/}
-        {/*        <TextFeedContainer*/}
-        {/*          dimensionCode="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove1.svg"*/}
-        {/*          productCode="/uilcommentaltmessage2.svg"*/}
-        {/*        />*/}
-        {/*        <div className={styles.frameWrapper3}>*/}
-        {/*          <FeedContainer*/}
-        {/*            dimensionCode="/ellipse-946@2x.png"*/}
-        {/*            employeeName="Sara Al Mogbel"*/}
-        {/*            imageDimensionCode="/frame-4255.svg"*/}
-        {/*            onboardingMaterialsUrl="Planting a trip idea here!"*/}
-        {/*            imageDimensionCode2="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove1.svg"*/}
-        {/*            productDimensionCode="/uilcommentaltmessage3.svg"*/}
-        {/*            propAlignSelf="unset"*/}
-        {/*            propFlex="1"*/}
-        {/*            propAlignSelf1="unset"*/}
-        {/*          />*/}
-        {/*        </div>*/}
-        {/*      </div>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
+        <div className={styles.frameParent12}>
+          <div className={styles.frameParent13}>
+            <div className={styles.toDoListParent}>
+              <div className={styles.projectsGroup}>
+                <div className={styles.newJoiners}>Your Feed</div>
+                <div className={styles.frameInner} />
+              </div>
+              <button className={styles.recentParent}>
+                <div className={styles.recent}>Recent</div>
+                <img
+                  className={styles.dropdownIcon}
+                  alt=""
+                  src="/dropdown.svg"
+                />
+              </button>
+            </div>
+            <div className={styles.frameParent15}>
+              <div className={styles.createANewProjectParent}>
+                <button className={styles.postsWrapper}>
+                  <div className={styles.recent}>Posts</div>
+                </button>
+                <button className={styles.postsWrapper}>
+                  <div className={styles.recent}>Events</div>
+                </button>
+                <button className={styles.postsWrapper}>
+                  <div className={styles.recent}>News</div>
+                </button>
+                <button className={styles.postsWrapper}>
+                  <div className={styles.recent}>Articles</div>
+                </button>
+                <button className={styles.postsWrapper}>
+                  <div className={styles.recent}>Announcements</div>
+                </button>
+                <button className={styles.postsWrapper}>
+                  <div className={styles.recent}>Argaam</div>
+                </button>
+              </div>
+              <button className={styles.newPostWrapper}>
+                <b className={styles.recent}>New Post+</b>
+              </button>
+            </div>
+          </div>
+          <div className={styles.frameWrapper2}>
+            <div className={styles.frameParent15}>
+              <div className={styles.frameParent18}>
+                <FeedContainer
+                  dimensionCode="/ellipse-945@2x.png"
+                  employeeName="Ahmed Magdi"
+                  imageDimensionCode="/frame-4251.svg"
+                  onboardingMaterialsUrl="Welcome to the team @ahmed.d! Please see all onboarding materials here!"
+                  imageDimensionCode2="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove.svg"
+                  productDimensionCode="/uilcommentaltmessage.svg"
+                />
+                <FeedContainer
+                  dimensionCode="/ellipse-945@2x.png"
+                  employeeName="Ahmed Magdi"
+                  imageDimensionCode="/frame-4254.svg"
+                  onboardingMaterialsUrl="Amazing spot for next travel destination!"
+                  imageDimensionCode2="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove.svg"
+                  productDimensionCode="/uilcommentaltmessage1.svg"
+                  propAlignSelf="stretch"
+                  propFlex="unset"
+                  propAlignSelf1="stretch"
+                />
+                <TextFeedContainer
+                  dimensionCode="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove.svg"
+                  productCode="/uilcommentaltmessage1.svg"
+                />
+              </div>
+              <div className={styles.frameParent18}>
+                <FeedContainer
+                  dimensionCode="/ellipse-946@2x.png"
+                  employeeName="Sara Al Mogbel"
+                  imageDimensionCode="/frame-4253.svg"
+                  onboardingMaterialsUrl="New Office Design!!"
+                  imageDimensionCode2="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove1.svg"
+                  productDimensionCode="/uilcommentaltmessage2.svg"
+                  propAlignSelf="stretch"
+                  propFlex="unset"
+                  propAlignSelf1="unset"
+                />
+                <TextFeedContainer
+                  dimensionCode="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove1.svg"
+                  productCode="/uilcommentaltmessage2.svg"
+                />
+                <div className={styles.frameWrapper3}>
+                  <FeedContainer
+                    dimensionCode="/ellipse-946@2x.png"
+                    employeeName="Sara Al Mogbel"
+                    imageDimensionCode="/frame-4255.svg"
+                    onboardingMaterialsUrl="Planting a trip idea here!"
+                    imageDimensionCode2="/streamlineinterfacefavoriteheartrewardsocialratingmediaheartitlikefavoritelove1.svg"
+                    productDimensionCode="/uilcommentaltmessage3.svg"
+                    propAlignSelf="unset"
+                    propFlex="1"
+                    propAlignSelf1="unset"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className={styles.frameParent20}>
         <CalenderContainer />
-        {/*<OffersCard />*/}
-        {/*<div className={styles.frameWrapper4}>*/}
-        {/*  <div className={styles.frameParent21}>*/}
-        {/*    <div className={styles.saveMoreMoneyWrapper}>*/}
-        {/*      <div className={styles.newJoiners}>Innovation Box</div>*/}
-        {/*    </div>*/}
-        {/*    <div className={styles.eiusmodTemporIncid}>*/}
-        {/*      Please submit your idea here*/}
-        {/*    </div>*/}
-        {/*    <button className={styles.frameButton}>*/}
-        {/*      <b className={styles.createANew}>Submit Idea</b>*/}
-        {/*    </button>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
+        <OffersCard />
+        <div className={styles.frameWrapper4}>
+          <div className={styles.frameParent21}>
+            <div className={styles.saveMoreMoneyWrapper}>
+              <div className={styles.newJoiners}>Innovation Box</div>
+            </div>
+            <div className={styles.eiusmodTemporIncid}>
+              Please submit your idea here
+            </div>
+            <button className={styles.frameButton}>
+              <b className={styles.createANew}>Submit Idea</b>
+            </button>
+          </div>
+        </div>
       </div>
       <Property1Variant11
         property1Variant11Position="absolute"
